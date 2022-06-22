@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-server-4.2.2.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/CTS/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/ant-1.10.12.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/ant-launcher-1.10.12.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/commons-codec-1.15.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/commons-compress-1.21.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/curvesapi-1.07.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/log4j-api-2.17.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/poi-5.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/poi-excelant-5.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/poi-ooxml-5.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/poi-ooxml-lite-5.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/CTS/selenium-java-4.1.4/jar_files/xmlbeans-5.0.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
