@@ -27,6 +27,7 @@ public class loginClass {
 	
 	@DataProvider(name="loginData")
 	public String[][] loginDataProvider() throws BiffException, IOException {
+		System.out.println("dataprov");
 		//return test data
 		data=getExcelData();
 		return data;
@@ -35,7 +36,7 @@ public class loginClass {
 	public String[][] getExcelData() throws BiffException, IOException {
 		
 		FileInputStream excel=new FileInputStream("D:\\CTS\\Book1.xls");
-		
+		System.out.println("Got excelsheet");
 		Workbook workbook=Workbook.getWorkbook(excel);
 		
 		Sheet sheet=workbook.getSheet(0); //ie. it gets the sheet 1
@@ -48,7 +49,7 @@ public class loginClass {
 		for(int i=1; i<rowCount; i++) {
 			for(int j=0; j<columnCount; j++) {
 				
-				testData[i-1][0]=sheet.getCell(j, i).getContents();
+				testData[i-1][j]=sheet.getCell(j, i).getContents();
 			}
 		}
 		return testData;
@@ -60,10 +61,12 @@ public class loginClass {
 		System.setProperty("webdriver.chrome.driver", "D:\\CTS\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
+		System.out.println("beforeTest");
 	}
 	
 	@AfterTest
 	public void closeBrowser() {
+		System.out.println("afterTest");
 		driver.quit();
 	}
 	
@@ -83,7 +86,7 @@ public class loginClass {
 			WebElement loginButton=driver.findElement(By.id("btnLogin"));
 			loginButton.click();
 			
-			
+			System.out.println("Test");
 		}
 	
 }
